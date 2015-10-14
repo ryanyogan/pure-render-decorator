@@ -10,7 +10,7 @@
   ],
   "author": "Félix Girault",
   "license": "MIT",
-  "repository": "felixgirault/pure-render-decorator",
+  "repository": "ryanyogan/pure-render-decorator",
   "main": "index.js",
   "peerDependencies": {
     "react": "^0.14.0"
