@@ -6,8 +6,6 @@
 
 var shallowCompare = require('react-addons-shallow-compare');
 
-
-
 /**
  * Tells if a component should update given it's next props
  * and state.
@@ -27,7 +25,5 @@ function shouldComponentUpdate(nextProps, nextState) {
 function pureRenderDecorator(component) {
   component.prototype.shouldComponentUpdate = shouldComponentUpdate;
 }
-
-
 
 module.exports = pureRenderDecorator;
